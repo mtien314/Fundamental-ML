@@ -38,13 +38,12 @@ This project is designed to be completed in the following steps:
     4. Image Classification
     5. Evaluating Classification Performance
 
-
-    |No.| Model | Accuracy | Recall | Precision | F1-score
-    | --------| -------- | ------- | -------- | ------- |
-    |1|Decision Tree| 20280096
-    |2|Random Forest| 20280004
-    |3|XGBOOST| 20280090
-    |4|MLP| 21280030
+    |No.| Student Name    | Student ID |
+    | --------| -------- | ------- |
+    |1|Lê Thị Mỹ Tiên| 20280096
+    |2|Trần Hoàng Anh| 20280004
+    |3|Phạm Quốc Thiện| 20280090
+    |4|Trần Văn Hữu Lượng| 21280030
 
     Make sure to run all the code cells in the ```EDA.ipynb``` notebook and ensure they produce output before committing and pushing your changes.
 
