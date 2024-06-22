@@ -65,10 +65,13 @@ This project is designed to be completed in the following steps:
       It has the highest accuracy (0.8065), which indicates that it correctly predicts the most instances. It also has the highest precision (0.8131), recall (0.8106), 
       and F1-score (0.8113), demonstrating a strong balance between precision and recall, which means it is reliable in identifying both positive and negative cases 
       accurately.
+   
    After PCA:
+   
     Although the performance metrics are equal for the Decision Tree and Random Forest models (accuracy, precision, recall, F1-score), the Random Forest model is still 
     preferred because of its robustness and ability to handle large datasets with higher dimensionality effectively. PCA tends to reduce overfitting and improve model 
     performance by reducing dimensionality, but it also shows that the Random Forest model maintains its superior performance consistently across both scenarios. Most 
     Accurate and Error-Prone Emotion Categories
+   
 -> Conclusion: Random Forest is the best-performing model both before and after PCA.
 
