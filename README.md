@@ -33,10 +33,13 @@ This project is designed to be completed in the following steps:
     
     1. Prerequisite
     2. Principle Component Analysis
-       We realize imbalance data when plot -> So we use oversampling method to solve problem
        
-    4. Image Classification
-    5. Evaluating Classification Performance
+       We realize imbalance data when plot -> So we use oversampling method to solve problem
+       ![background](oversampling.png)
+       
+    3. Image Classification
+       ![background](image.jpg)
+    4. Evaluating Classification Performance
 
     |No.| Model name    | Accuracy | Precision | Recall | F1-score
     | --------| -------- | ------- | -------- | ------- | ------- |
@@ -45,9 +48,4 @@ This project is designed to be completed in the following steps:
     |3|XGBOOST| 0.73 | 0.73 | 0.72 | 0.72 
     |4|MLP | 0.75 |  0.75 | 0.75 | 0.75 
 
-    Make sure to run all the code cells in the ```EDA.ipynb``` notebook and ensure they produce output before committing and pushing your changes.
 
-5. **Commit and Push Your Changes**: Once you've completed the tasks outlined in the notebook, commit your changes to your local repository and push them to your forked repository on GitHub.
-
-
-Feel free to modify and extend the notebook to explore further aspects of the data and experiment with different algorithms. Good luck.
