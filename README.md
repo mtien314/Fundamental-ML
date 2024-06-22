@@ -40,10 +40,10 @@ This project is designed to be completed in the following steps:
 
     |No.| Model name    | Accuracy | Precision | Recall | F1-score
     | --------| -------- | ------- | -------- | ------- | ------- |
-    |1|Lê Thị Mỹ Tiên| 20280096
-    |2|Trần Hoàng Anh| 20280004
-    |3|Phạm Quốc Thiện| 20280090
-    |4|Trần Văn Hữu Lượng| 21280030
+    |1|Decision Tree| 0.77 | 0.79 | 0.78 | 0.78 |
+    |2|Random Forest| 0.77 |  0.78 | 0.78 | 0.78 
+    |3|XGBOOST| 0.73 | 0.73 | 0.72 | 0.72 
+    |4|MLP | 0.75 |  0.75 | 0.75 | 0.75 
 
     Make sure to run all the code cells in the ```EDA.ipynb``` notebook and ensure they produce output before committing and pushing your changes.
 
