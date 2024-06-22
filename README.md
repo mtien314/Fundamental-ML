@@ -38,8 +38,8 @@ This project is designed to be completed in the following steps:
     4. Image Classification
     5. Evaluating Classification Performance
 
-    |No.| Student Name    | Student ID |
-    | --------| -------- | ------- |
+    |No.| Model name    | Accuracy | Precision | Recall | F1-score
+    | --------| -------- | ------- | -------- | ------- | ------- |
     |1|Lê Thị Mỹ Tiên| 20280096
     |2|Trần Hoàng Anh| 20280004
     |3|Phạm Quốc Thiện| 20280090
