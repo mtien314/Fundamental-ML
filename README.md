@@ -35,11 +35,12 @@ This project is designed to be completed in the following steps:
     2. Principle Component Analysis
        
        We realize imbalance data when plot -> So we use oversampling method to solve problem
-       ![background](oversampling.png)
+       After oversampling
+       !(oversampling.png)
        
-    3. Image Classification
+    4. Image Classification
        ![background](image.jpg)
-    4. Evaluating Classification Performance
+    5. Evaluating Classification Performance
 
     |No.| Model name    | Accuracy | Precision | Recall | F1-score
     | --------| -------- | ------- | -------- | ------- | ------- |
