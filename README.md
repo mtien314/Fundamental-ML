@@ -35,18 +35,40 @@ This project is designed to be completed in the following steps:
     2. Principle Component Analysis
        
        We realize imbalance data when plot -> So we use oversampling method to solve problem
+       
        After oversampling
-       !(oversampling.png)
+       ![background](oversampling.png)
        
     4. Image Classification
        ![background](image.jpg)
     5. Evaluating Classification Performance
+
+    Before PCA
+    |No.| Model name    | Accuracy | Precision | Recall | F1-score
+    | --------| -------- | ------- | -------- | ------- | ------- |
+    |1|Decision Tree| 0.73 | 0.72 | 0.73 | 0.72 |
+    |2|Random Forest| 0.8 |  0.81 | 0.81 | 0.81 
+    |3|XGBOOST| 0.76 | 0.76 | 0.76 | 0.76 
+    |4|MLP | 0.75 |  0.75 | 0.75 | 0.75
+
+    After PCA
 
     |No.| Model name    | Accuracy | Precision | Recall | F1-score
     | --------| -------- | ------- | -------- | ------- | ------- |
     |1|Decision Tree| 0.77 | 0.79 | 0.78 | 0.78 |
     |2|Random Forest| 0.77 |  0.78 | 0.78 | 0.78 
     |3|XGBOOST| 0.73 | 0.73 | 0.72 | 0.72 
-    |4|MLP | 0.75 |  0.75 | 0.75 | 0.75 
+    |4|MLP | 0.75 |  0.75 | 0.75 | 0.75
 
+
+    Before PCA:
+      It has the highest accuracy (0.8065), which indicates that it correctly predicts the most instances. It also has the highest precision (0.8131), recall (0.8106), 
+      and F1-score (0.8113), demonstrating a strong balance between precision and recall, which means it is reliable in identifying both positive and negative cases 
+      accurately.
+   After PCA:
+    Although the performance metrics are equal for the Decision Tree and Random Forest models (accuracy, precision, recall, F1-score), the Random Forest model is still 
+    preferred because of its robustness and ability to handle large datasets with higher dimensionality effectively. PCA tends to reduce overfitting and improve model 
+    performance by reducing dimensionality, but it also shows that the Random Forest model maintains its superior performance consistently across both scenarios. Most 
+    Accurate and Error-Prone Emotion Categories
+-> Conclusion: Random Forest is the best-performing model both before and after PCA.
 
