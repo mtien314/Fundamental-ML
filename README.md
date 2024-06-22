@@ -37,9 +37,9 @@ This project is designed to be completed in the following steps:
        
     4. Image Classification
     5. Evaluating Classification Performance
-  
-   
-    |No.|Model     | Accuracy | Recall | Precision | F1-score
+
+
+    |No.| Model | Accuracy | Recall | Precision | F1-score
     | --------| -------- | ------- | -------- | ------- |
     |1|Decision Tree| 20280096
     |2|Random Forest| 20280004
